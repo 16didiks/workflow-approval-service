@@ -4,19 +4,19 @@ A simple REST API service in Golang to manage workflow approvals (documents, pur
 
 ---
 
-## 🚀 Running the Application
+Running the Application
 
 1. Clone the repository:
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
+   git clone https://github.com/USERNAME/REPO_NAME.git
+   cd REPO_NAME
 
 2. Environment:
-APP_PORT=8080
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=secret
-DB_NAME=workflow_db
+   APP_PORT=8080
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USER=postgres
+   DB_PASSWORD=secret
+   DB_NAME=workflow_db
 
 3. Run migrations:
    go run config/migration.go
