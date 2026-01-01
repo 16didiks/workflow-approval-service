@@ -7,7 +7,7 @@ A simple REST API service in Golang to manage workflow approvals (documents, pur
 Running the Application
 
 1. Clone the repository:
-   git clone https://github.com/USERNAME/REPO_NAME.git
+   git clone https://github.com/16didiks/workflow-approval-service.git
    cd REPO_NAME
 
 2. Environment:
